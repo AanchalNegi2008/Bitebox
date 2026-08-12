@@ -51,3 +51,91 @@ nav div h2
 {
     text-decoration: underline rgb(211, 22, 22) double;
 }
+
+.hero
+{
+    background-color: aquamarine; 
+    height: 90vh;
+    background: url('../images/Banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.hero button
+{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.hero button:hover
+{
+    background-color: darkred;
+}
+
+.video-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 50px;
+}
+.video-text
+{
+    flex: 1;
+}
+
+.video-box
+{
+    flex: 1 ;
+}
+.video-box video
+{
+    width: 100%;
+    border-radius: 25px;
+
+}
+
+.video-text h2
+{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.video-text p
+{
+    font-size: 19x;
+    color: gray;
+}
+.about
+{
+    text-align: center;
+             /*tb  lr */
+    padding: 60px 20px;
+    background-color: #f5e2ef;
+}
+
+.about h2
+{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: rgba(255, 0, 0, 0.615);
+}
+
+.about p
+{
+     max-width: 700px; 
+    /* background-color: turquoise; */
+    color: blue;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: auto;
+}
