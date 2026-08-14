@@ -18,3 +18,32 @@ h1
     box-sizing: border-box;
 
 }
+
+.box
+{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    position: absolute;
+    
+}
+#box1
+{
+    background-color: red;
+    left: 80px;
+    z-index: 3;
+    
+}
+#box2
+{
+    background-color: palevioletred;
+    left: 40px;
+    top: 40px;
+    z-index: 2;
+}
+#box3
+{
+    background-color: yellowgreen;
+    top: 80px;
+    z-index: 1;
+}
