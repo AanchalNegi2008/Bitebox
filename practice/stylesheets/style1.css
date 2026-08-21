@@ -47,3 +47,22 @@ h1
     top: 80px;
     z-index: 1;
 }
+.input-box
+{
+    outline-color: aquamarine;
+    outline-width: 10px;
+    outline-style: solid;
+   
+}
+.img-container
+{
+    width: 100px;
+    height: 200px;
+     border: 2px solid black;
+}
+.img-container img
+{
+    width: 20%;
+    height: 40%;
+    object-fit: contain;
+}
